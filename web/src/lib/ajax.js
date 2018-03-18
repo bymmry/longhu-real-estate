@@ -3,7 +3,7 @@ import axios from 'axios'
 import { MessageBox } from 'element-ui'
 // 创建一个axios实例
 const ajax = axios.create({
-  baseURL: process.env.NODE_ENV === 'production' ? 'http://bymm.natappvip.cc' : 'http://bymm.natappvip.cc',
+  baseURL: process.env.NODE_ENV === 'production' ? 'http://ibymm.com' : 'http://bymm.natappvip.cc',
   headers: {
     'Content-Type': 'application/json'
   },
