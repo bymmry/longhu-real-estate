@@ -16,8 +16,14 @@ var Building = new Schema({
   preUnitPrice:Number,//拟定单价
   propertyRegistry:String,//产籍号
   propertyRightsSystemNumber:String,//产权系统中的楼宇编号
-  createdAt: Number,
-  updatedAt: Number,
+  realEstate:{
+    type: Schema.Types.ObjectId,
+    ref: 'RealEstate'
+  },//地产开发商
+  community:{
+    type: Schema.Types.ObjectId,
+    ref: 'Community'
+  },//小区
   houseCategory:{
     type: Schema.Types.ObjectId,
     ref: 'HouseCategory'
@@ -26,10 +32,7 @@ var Building = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'HouseNature'
   },//房屋性质
-  community:{
-    type: Schema.Types.ObjectId,
-    ref: 'Community'
-  },//小区
+  
   karma:{
     type: Schema.Types.ObjectId,
     ref: 'Karma'
@@ -42,13 +45,11 @@ var Building = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'PropertyManagment'
   },//物业公司
-  realEstate:{
-    type: Schema.Types.ObjectId,
-    ref: 'RealEstate'
-  },//地产开发商
   devCompany:{
     type: Schema.Types.ObjectId,
     ref: 'DevCompany'
-  }//开发公司
+  },//开发公司
+  createdAt: Number,
+  updatedAt: Number,
 })
 module.exports = Building

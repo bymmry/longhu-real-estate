@@ -10,5 +10,5 @@ module.exports = {
   SetPoint:require('./SetPoint'),//归集点
   DevCompany:require('./DevCompany'),//开发公司
   Karma:require('./Karma'),//业委会
-  PropertyManagment:require('./PropertyManagment'),//物业公司
+  PropertyManagment:require('./PropertyManagment')//物业公司
 }

@@ -41,8 +41,18 @@ var House = new Schema({
   totalInterest:Number,//累计利息
   recentlyInteres:Number,//最近利息
   userApartmentPayRatio:String,//个人单位缴存比
-  createdAt: Number,
-  updatedAt: Number,
+  realEstate:{
+    type: Schema.Types.ObjectId,
+    ref: 'RealEstate'
+  },//地产开发商
+  community:{
+    type: Schema.Types.ObjectId,
+    ref: 'Community'
+  },//小区
+  building:{
+    type: Schema.Types.ObjectId,
+    ref: 'Building'
+  },//楼宇
   houseUse:{
     type: Schema.Types.ObjectId,
     ref: 'HouseUse'
@@ -59,17 +69,7 @@ var House = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'HouseCategory'
   },//房屋类型
-  realEstate:{
-    type: Schema.Types.ObjectId,
-    ref: 'RealEstate'
-  },//地产开发商
-  community:{
-    type: Schema.Types.ObjectId,
-    ref: 'Community'
-  },//小区
-  building:{
-    type: Schema.Types.ObjectId,
-    ref: 'Building'
-  }//楼宇
+  createdAt: Number,
+  updatedAt: Number,
 })
 module.exports = House
