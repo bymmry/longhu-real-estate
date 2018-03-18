@@ -1,0 +1,152 @@
+export default [{
+  value:'realEstate.name',
+  label:'地产商',
+  required:true,
+},{
+  value:'community.name',
+  label:'小区',
+  required:true,
+},{
+  value:'building.name',
+  label:'楼宇',
+  required:true,
+},{
+  value:'roomNumber',
+  label:'房号',
+  required:true,
+},{
+  value:'houseUse.name',
+  label:'房屋用途',
+  required:true,
+},{
+  value:'houseType.name',
+  label:'户型',
+  required:true,
+},{
+  value:'houseNature.name',
+  label:'房屋性质',
+  required:true,
+},{
+  value:'houseCategory.name',
+  label:'房屋类型',
+  required:true,
+},{
+  value:'unit',
+  label:'单元'
+},{
+  value:'storeyNumber',
+  label:'层号'
+},{
+  value:'serialNumber',
+  label:'串号'
+},{
+  value:'buildSquare',
+  label:'建筑面积',
+  needSum:true
+},{
+  value:'useSquare',
+  label:'使用面积',
+  needSum:true
+},{
+  value:'publicSquare',
+  label:'公摊面积',
+  needSum:true
+},{
+  value:'unitPrice',
+  label:'单价',
+  needSum:true
+},{
+  value:'totalPrice',
+  label:'总价',
+  needSum:true
+},{
+  value:'propertyApartment',
+  label:'产权单位'
+},{
+  value:'propertyNumber',
+  label:'产权编号'
+},{
+  value:'propertyOwner',
+  label:'产权人'
+},{
+  value:'idNumber',
+  label:'身份证号'
+},{
+  value:'contactNumber',
+  label:'联系号码'
+},{
+  value:'buyAt',
+  label:'购房日期'
+},{
+  value:'earlyYearPrincipal',
+  label:'年初本金',
+  needSum:true
+},{
+  value:'earlyYearInterest',
+  label:'年初利息',
+  needSum:true
+},{
+  value:'yearAccrual',
+  label:'本年发生额'
+},{
+  value:'userFirstPrincipal',
+  label:'业主首次本金'
+},{
+  value:'apartmentFirstPrincipal',
+  label:'单位首次本金'
+},{
+  value:'drawInterest',
+  label:'支取利息'
+},{
+  value:'availablePrincipal',
+  label:'可用本金'
+},{
+  value:'availableInterest',
+  label:'可用利息'
+},{
+  value:'yearInterest',
+  label:'本年利息',
+  needSum:true
+},{
+  value:'state',
+  label:'房屋状态'
+},{
+  value:'needPrintNotice',
+  label:'是否打印通知书'
+},{
+  value:'payStandardNumber',
+  label:'缴存标准编码'
+},{
+  value:'userPayStandard',
+  label:'个人缴存标准'
+},{
+  value:'apartmentPayStandard',
+  label:'单位缴存标准'
+},{
+  value:'firstNeedPayment',
+  label:'首次应缴金额'
+},{
+  value:'totalNeedPayment',
+  label:'当前应缴金额'
+},{
+  value:'userNeedPayment',
+  label:'个人应缴金额'
+},{
+  value:'contractNumber',
+  label:'合同号'
+},{
+  value:'totalPayPrincipal',
+  label:'累计缴纳本金',
+  needSum:true
+},{
+  value:'totalInterest',
+  label:'累计利息',
+  needSum:true
+},{
+  value:'recentlyInteres',
+  label:'最近利息',
+  needSum:true
+},{
+  value:'userApartmentPayRatio',
+  label:'个人单位缴存比'
+}]

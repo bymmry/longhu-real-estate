@@ -1,0 +1,76 @@
+export default [{
+  value:'realEstate.name',
+  label:'地产商',
+  required:true,
+},{
+  value:'community.name',
+  label:'小区',
+  required:true,
+},{
+  value:'name',
+  label:'楼宇名称',
+  required:true,
+},{
+  value:'number',
+  label:'楼号',
+},{
+  value:'houseCategory.name',
+  label:'房屋类型',
+  required:true,
+},{
+  value:'houseNature.name',
+  label:'房屋性质',
+  required:true,
+},{
+  value:'karma.name',
+  label:'业委会',
+  required:true,
+},{
+  value:'setPoint.name',
+  label:'归集点',
+  required:true,
+},{
+  value:'propertyManagment.name',
+  label:'物业公司',
+  required:true,
+},{
+  value:'devCompany.name',
+  label:'开发公司',
+  required:true,
+},{
+  value:'address',
+  label:'地址'
+},{
+  value:'square',
+  label:'总建筑面积',
+  needSum:true
+},{
+  value:'storeyCount',
+  label:'楼层数',
+  needSum:true
+},{
+  value:'unitCount',
+  label:'单元数',
+},{
+  value:'completedAt',
+  label:'竣工日期'
+},{
+  value:'serviceLife',
+  label:'使用年限'
+},{
+  value:'hasElevator',
+  label:'是否有电梯'
+},{
+  value:'totalCost',
+  label:'总造价',
+  needSum:true
+},{
+  value:'preUnitPrice',
+  label:'拟定单价'
+},{
+  value:'propertyRegistry',
+  label:'产籍号'
+},{
+  value:'propertyRightsSystemNumber',
+  label:'产权系统中的楼宇编号'
+}]
